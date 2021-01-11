@@ -102,7 +102,7 @@ int main(void) {
 	a[5].push_back(6);
 	a[6].push_back(5);
 	c[5][6] = 4;
-	
+
 	maxFlow(1, 6);
 	printf("%d", result);
 }
