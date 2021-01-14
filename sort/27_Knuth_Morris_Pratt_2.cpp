@@ -1,7 +1,7 @@
 //KMP(Knuth-Morris-Pratt) 알고리즘
 //대표적인 문자열(String) 매칭 알고리즘 : 특정한 글이 있을 때 그 글 안에서 하나의 문자열을 찾는 알고리즘
 //모든 경우를 다 비교하지 않아도 부분 문자열을 찾을 수 있다.
-
+//시간 복잡도는 O(N+M)
 #include <iostream>
 #include <vector>
 
@@ -19,6 +19,7 @@ vector<int> makeTable(string pattern){
         }
         if(pattern[i] == pattern[j]){
             table[i] = ++j;
+            
         }
     }
     return table;
@@ -33,7 +34,6 @@ void KMP(string parent, string pattern){
     for(int i=0; i<parentSize; i++){
         while(j>0 && parent[i] != pattern[j]){
             j = table[j-1];
-
         }
         if(parent[i] == pattern[j]){
             if(j == patternSize -1){
