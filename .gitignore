@@ -5,7 +5,8 @@
 
 
 Info.plist
-/*.dSYM
+*.dSYM
+*.json
 
 ### C++ ###
 # Prerequisites
