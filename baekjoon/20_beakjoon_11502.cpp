@@ -41,7 +41,7 @@ int main(void){
             }
             if(chk) break;
         }
-        
+
     }
-    
-}
+
+} 
