@@ -10,6 +10,7 @@ using namespace std;
 int c,n;
 
 int calc_count(int mid, vector<int> &v){
+    
     int std = v[0];
     int cnt = 1;
 
@@ -45,17 +46,17 @@ int main(void){
     int end = house[n-1];
     int result = 0;
 
-
     while(start <= end) {
 
         int mid = (start+end)/2;
         //mid 간격일 때 공유기 cnt
         int cnt = calc_count(mid, house);
 
+        //mid 좀 더 크게 설치
         if(cnt >= c){
             result = max(result, mid);
             start = mid +1;
-        
+        // mid 을 더 작게 설치
         } else{
             end = mid - 1;
         }
