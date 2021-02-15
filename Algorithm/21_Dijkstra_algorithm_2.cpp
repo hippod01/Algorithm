@@ -15,7 +15,7 @@ int INF = 100000000;
 //각 요소를 ‘힙(heap)’이라는 자료구조의 형태로 저장
 
 //간선 정보
-vector<pair<int, int>> a[7];
+vector<pair<int, int> > a[7];
 //최소 비용
 int d[7];
 
@@ -23,7 +23,7 @@ int d[7];
 void dijkstra(int start){
     d[start] = 0;
     //힙구조
-    priority_queue<pair<int, int>> pq;
+    priority_queue<pair<int, int> > pq;
     
     //값 넣음
     pq.push(make_pair(start,0));
