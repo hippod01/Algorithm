@@ -8,13 +8,13 @@
 using namespace std;
 
 int n, d, c;
-vector<pair<int,int> > v[10001];
+vector< pair <int,int> > v[10001];
 int t[10001];
 
 
 void dijkstra(int start){
 
-    priority_queue <pair <int,int> > pq;
+    priority_queue < pair <int,int> > pq;
     pq.push(make_pair(0,start));
     t[start] = 0;
     
