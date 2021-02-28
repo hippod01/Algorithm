@@ -6,7 +6,7 @@ int n;
 int score[301];
 int d[301];
 
-void dp(int x){
+void dp(int n){
     d[0] = score[0];
     d[1] = max(score[0]+score[1], score[1]);
     d[2] = max(score[0]+score[2], score[1]+score[2]);
