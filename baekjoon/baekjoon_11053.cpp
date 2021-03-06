@@ -1,5 +1,6 @@
 //https://www.acmicpc.net/problem/11053
 //가장 긴 증가하는 부분 수열
+//참고 : https://bitwise.tistory.com/215
 
 #include <iostream>
 #include <algorithm>
