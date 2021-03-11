@@ -1,9 +1,17 @@
 # Algorithm
+> 온라인 c++ 컴파일러 [OnlineGDB](//https://www.onlinegdb.com/online_c++_compiler)
+
+> 안경잡이개발자 [[blog]](https://m.blog.naver.com/PostList.nhn?blogId=ndb796&categoryNo=128&logCode=0&categoryName=2018%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
+[[youtube]](https://www.youtube.com/watch?v=qQ5iLNjpxSk&list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz)
+
+>BaaaaaaaarkingDog [[blog]](https://blog.encrypted.gg/category/%EA%B0%95%EC%A2%8C/%EC%8B%A4%EC%A0%84%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98) 
+[[youtube]](https://www.youtube.com/watch?v=qQ5iLNjpxSk&list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz)  
+
 
 #### 동적 계획법(DP, Dynamic Programming)
 ---
 
->[백준2839](https://github.com/hippod01/Algorithm/commit/54d8329c84a82a70896a680ecbb08f182930c4a3) 
+>[백준2839](https://github.com/hippod01/Algorithm/commit/54d8329c84a82a70896a680ecbb08f182930c4a3){:target="_blank"} 
 >[백준1463](https://github.com/hippod01/Algorithm/commit/4511c0f57ca745739d75ff43754775c93a7e1ef7)
 >[백준9095](https://github.com/hippod01/Algorithm/commit/4511c0f57ca745739d75ff43754775c93a7e1ef7)
 >[백준9095](https://github.com/hippod01/Algorithm/commit/04e26cb968e2bc9855d65e1f95883110edb8f03e)
@@ -67,6 +75,12 @@
 >[백준1854](https://github.com/hippod01/Algorithm/commit/1b02de11dde39f10177c01f22c24f2f5fc742283)
 >[백준10282](https://github.com/hippod01/Algorithm/commit/ee85653a78177b236f86a67a51a46d7d1c90469f)
 >[백준2211](https://github.com/hippod01/Algorithm/commit/06c3f0defda7b393809db87f814ffdf567671f42)
+
+
+#### 구현
+---
+>[예제 4-3](https://github.com/hippod01/Algorithm/commit/45dcf04937f0a78d85a3dd0afde87fed92065db7)
+>[예제 4-4](https://github.com/hippod01/Algorithm/commit/a19e7c758eff6ccffd5afc2dcd769453643c2942)
 
 
 
