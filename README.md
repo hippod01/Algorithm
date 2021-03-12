@@ -1,5 +1,5 @@
 # Algorithm
-> 온라인 c++ 컴파일러 [OnlineGDB](//https://www.onlinegdb.com/online_c++_compiler)
+> 온라인 c++ 컴파일러 [OnlineGDB](https://www.onlinegdb.com/online_c++_compiler)
 
 > 안경잡이개발자 [[blog]](https://m.blog.naver.com/PostList.nhn?blogId=ndb796&categoryNo=128&logCode=0&categoryName=2018%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
 [[youtube]](https://www.youtube.com/watch?v=qQ5iLNjpxSk&list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz)
@@ -11,7 +11,7 @@
 #### 동적 계획법(DP, Dynamic Programming)
 ---
 
->[백준2839](https://github.com/hippod01/Algorithm/commit/54d8329c84a82a70896a680ecbb08f182930c4a3){:target="_blank"} 
+>[백준2839](https://github.com/hippod01/Algorithm/commit/54d8329c84a82a70896a680ecbb08f182930c4a3)
 >[백준1463](https://github.com/hippod01/Algorithm/commit/4511c0f57ca745739d75ff43754775c93a7e1ef7)
 >[백준9095](https://github.com/hippod01/Algorithm/commit/4511c0f57ca745739d75ff43754775c93a7e1ef7)
 >[백준9095](https://github.com/hippod01/Algorithm/commit/04e26cb968e2bc9855d65e1f95883110edb8f03e)
