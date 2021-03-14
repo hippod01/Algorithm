@@ -16,7 +16,7 @@ int dx[] = { 0, 1, 0,-1};
 int bdy[] = {1, 0, -1, 0};
 int bdx[] = {0, -1, 0, 1};
 
-void dfs(int y, int x, int d){
+void move(int y, int x, int d){
 
     //4방향 탐색
     for(int i=d-1; i>d-5; i--){
@@ -27,7 +27,7 @@ void dfs(int y, int x, int d){
             if(map[ny][nx] == 0 && v[ny][nx] == 0){
                 v[ny][nx] = 1;
                 cnt++;
-                dfs(ny,nx,nk);
+                move(ny,nx,nk);
                 return;
             }
         }
@@ -35,9 +35,9 @@ void dfs(int y, int x, int d){
 
     int by = y + bdy[d];
     int bx = x + bdx[d];
-    
+
     if(map[by][bx] == 1) return;
-    else dfs(by,bx,d);
+    else move(by,bx,d);
 
 }
 
@@ -61,7 +61,7 @@ int main(void){
         }
     }
     
-    dfs(r,c,d);
+    move(r,c,d);
 
     cout << cnt << '\n';
 
