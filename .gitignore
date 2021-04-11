@@ -3,6 +3,19 @@
 # Created by https://www.toptal.com/developers/gitignore/api/vscode,macos,c++
 # Edit at https://www.toptal.com/developers/gitignore?templates=vscode,macos,c++
 
+# 확장자 없는 binary file ignore
+# Ignore all 
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+
+
+
 
 Info.plist
 *.dSYM
