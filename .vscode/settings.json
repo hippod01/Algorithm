@@ -19,7 +19,8 @@
         "string": "cpp",
         "string_view": "cpp",
         "ios": "cpp",
-        "memory": "cpp"
+        "memory": "cpp",
+        "list": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
